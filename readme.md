@@ -55,8 +55,8 @@ A full-stack food ordering application built with **React.js**, **Node.js**, **E
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/food-ordering-app.git
-   cd food-ordering-app
+   git clone https://github.com/KDDilshan/Food-Ordering-Application.git
+   cd food-order
    ```
 
 2. **Install dependencies for both frontend and backend**:
@@ -104,8 +104,8 @@ A full-stack food ordering application built with **React.js**, **Node.js**, **E
 
 ## 📂 Folder Structure
 
-- **client/** - React.js frontend code
-- **server/** - Node.js backend API
+- **Frontend/** - React.js frontend code
+- **Backend/** - Node.js backend API
 - **models/** - MongoDB models (User, Order, etc.)
 - **controllers/** - API business logic (order, payment, etc.)
 - **routes/** - API routes for authentication, orders, payments, etc.
@@ -150,7 +150,7 @@ Order confirmation emails are sent using **Nodemailer** with the configured emai
 
 ## 💳 Payment Integration
 
-The app uses **Stripe** (or another payment provider) for secure online payments. Add your payment provider’s secret key in the `.env` file to enable payments.
+The app uses **Stripe** for secure online payments. Add your payment provider’s secret key in the `.env` file to enable payments.
 
 ---
 
@@ -167,12 +167,6 @@ The app uses **Stripe** (or another payment provider) for secure online payments
 - Implement a recommendation system for users based on past orders.
 - Add multi-language support.
 - Improve UI/UX for better user experience.
-
----
-
-## 👥 Contributing
-
-Contributions are welcome! Please fork the repository and create a new branch for your feature or bug fix.
 
 ---
 
